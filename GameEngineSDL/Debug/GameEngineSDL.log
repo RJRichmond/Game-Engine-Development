@@ -1,0 +1,3 @@
+﻿  GameRenderer.cpp
+C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\GameEngineSDL\GameRenderer.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
+  GameEngineSDL.vcxproj -> C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\Debug\GameEngineSDL.exe
