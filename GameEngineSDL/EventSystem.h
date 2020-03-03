@@ -16,11 +16,14 @@ public:
 	void EventCheck();
 	void PerformEvent(size_t EventNumber);
 	bool CloseWindowCheck();
+	int GetPlayerPositionChange();
+	void ResetPositionChange();
 
 
 private:
 	bool IsEventActive[EventCount];
 	bool WindowShouldClose;
+	int PlayerPositionChange;
 	Input* InputSystem;
 	std::queue<int> EventQueue;
 	

@@ -1,3 +1,8 @@
-﻿  GameRenderer.cpp
-C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\GameEngineSDL\GameRenderer.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
+﻿  Bitmap.cpp
+  GameRenderer.cpp
+  ResourceManager.cpp
+C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\GameEngineSDL\GameRenderer.cpp(70,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\GameEngineSDL\ResourceManager.cpp(15,20): warning C4018: '<': signed/unsigned mismatch
   GameEngineSDL.vcxproj -> C:\Users\rhys1\Desktop\University work\Game engine\GameEngineSDL\Debug\GameEngineSDL.exe

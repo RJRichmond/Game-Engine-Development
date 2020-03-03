@@ -6,6 +6,8 @@
 
 Bitmap::Bitmap(SDL_Renderer* Renderer,std::string fileName, int xpos, int ypos, bool useTransparency)
 {
+	tag = "";
+
 	renderer = Renderer;
 	if (textureList.count(fileName)) {}
 	

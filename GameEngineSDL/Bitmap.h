@@ -25,4 +25,6 @@ public:
 	SDL_Texture* GetTexture();
 	int GetxPos();
 	int GetyPos();
+
+	std::string tag;
 };

@@ -4,7 +4,8 @@
 #include <string>
 #include <vector>
 #include <utility>
-#include "EventSystem.h"
+#include "Game.h"
+//#include "EventSystem.h"
 #include "ResourceManager.h"
 
 struct SDL_Window;
@@ -15,7 +16,8 @@ class GameRenderer
 private:
 	SDL_Window* GameWindow;
 	SDL_Renderer* Renderer;
-	EventSystem* EventManager;
+	//EventSystem* EventManager;
+	Game* GameControl;
 	ResourceManager* ResourceSystem;
 public:
 	GameRenderer();

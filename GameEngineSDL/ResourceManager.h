@@ -5,7 +5,11 @@
 #include <utility>
 #include <string>
 
-
+struct GameObject 
+{
+	std::string GameObjectName;
+	Bitmap* Sprite;
+};
 
 class ResourceManager
 {

@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClCompile Include="Bitmap.cpp" />
     <ClCompile Include="EventSystem.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameRenderer.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
@@ -142,9 +143,11 @@
   <ItemGroup>
     <ClInclude Include="Bitmap.h" />
     <ClInclude Include="EventSystem.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GameRenderer.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SceneManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

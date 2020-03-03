@@ -79,6 +79,7 @@ void EventSystem::PerformEvent(size_t EventNumber)
 			}
 			if (InputSystem->CheckingIfKeyIsPressed(KEY_A))
 			{
+				PlayerPositionChange = -5;
 				std::cout << "A" << std::endl;
 			}
 			if (InputSystem->CheckingIfKeyIsPressed(KEY_S))
@@ -87,6 +88,7 @@ void EventSystem::PerformEvent(size_t EventNumber)
 			}
 			if (InputSystem->CheckingIfKeyIsPressed(KEY_D))
 			{
+				PlayerPositionChange = 5;
 				std::cout << "D" << std::endl;
 			}
 		}
@@ -117,4 +119,14 @@ bool EventSystem::CloseWindowCheck()
 	{
 		return false;
 	}
+}
+
+int EventSystem::GetPlayerPositionChange()
+{
+	return PlayerPositionChange;
+}
+
+void EventSystem::ResetPositionChange()
+{
+	PlayerPositionChange = 0;
 }
